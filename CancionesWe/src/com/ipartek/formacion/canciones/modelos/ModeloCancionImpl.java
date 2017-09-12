@@ -54,4 +54,10 @@ public class ModeloCancionImpl implements ModeloCancion{
 		return false;
 	}
 
+	@Override
+	public boolean update(Cancion c) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }

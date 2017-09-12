@@ -13,5 +13,7 @@ public interface ModeloCancion {
 	boolean eliminar(long id);
 
 	boolean insert(Cancion c);
+	
+	boolean update(Cancion c);
 
 }
