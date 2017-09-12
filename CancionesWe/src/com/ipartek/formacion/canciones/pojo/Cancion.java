@@ -5,6 +5,13 @@ public class Cancion {
 	private long id;
 	private String titulo;
 	private String artista;
+	public Cancion(String titulo, String artista, String duracion) {
+		super();
+		this.id = 0;
+		this.titulo = titulo;
+		this.artista = artista;
+		Duracion = duracion;
+	}
 	public Cancion(long id, String titulo, String artista, String duracion) {
 		super();
 		this.id = id;

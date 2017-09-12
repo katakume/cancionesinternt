@@ -27,7 +27,9 @@ public class CrearControler extends HttpServlet {
 		String titulo = request.getParameter("titulo");
 		String artista = request.getParameter("artista");
 		String duracion = request.getParameter("duracion");
+		
 		//creamos la cancion
+		
 		Cancion c = new Cancion (titulo, artista, duracion);
 		//enviamos accion como ATRIBUTO ne la request
 		request.setAttribute("cancion",c);

@@ -42,7 +42,7 @@ public class ListarController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//crear array con 10 canciones
-		ModeloCancionImpl modelo = new ModeloCancionImpl();
+		ModeloCancionImpl modelo = ModeloCancionImpl.getInstance();
 		ArrayList<Cancion> canciones = modelo.getAll();
 
 		
